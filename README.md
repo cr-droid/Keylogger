@@ -55,9 +55,16 @@ This project is intended for **educational and experimental purposes only**. Mon
 
 ## 🧪 Exhibit
 
+### Exhibit A: Real Facebook login page vs UI Facebook login page (fake)
+
+![Exhibit A – Real Facebook](readme_images/pic_of_usb_device.png)
+
+**Description:**  
+This exhibit shows the physical examination of the USB storage device.
+
 ---
 
 ## 👤 Author
 - **Christian Ruiz**  
-  Digital Forensics Student  
+  Cybersecurity Researcher
   GitHub: https://github.com/cr-droid
