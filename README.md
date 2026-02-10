@@ -118,10 +118,21 @@ This is what the program captures. Notice all the entries. It shows a timestamp 
 
 ### Exhibit D: Organized keys
 
-![Exhibit B – Organized Keys](readme-images/organized-keys.png)
+![Exhibit D – Organized Keys](readme-images/organized-keys.png)
 
 **Description:**  
-After logs are captured, keys are process to create sequences of keyboard input. 
+After logs are captured, keys are process to create sequences of keyboard input. In this example, an email and password are captured. 
+
+But not only does this program work for the UI. It also captures keyboard strokes and mouse clicks throughout the **ENTIRE** system. 
+
+### Exhibit D: Organized keys
+
+![Exhibit B – Organized Keys](readme-images/organized-keys.png)
+
+
+
+**Description:**  
+
 
 ---
 
