@@ -42,7 +42,7 @@ The application runs a Tkinter-based UI and uses global input listeners to monit
 
 ---
 
-## Required Permissions (Important)
+## 🔐 Required Permissions (Important)
 
 Because this program monitors **global keyboard and mouse input**, most operating systems require explicit user permission for the application or terminal running it.
 
@@ -56,7 +56,10 @@ If you are running this program on **macOS using VS Code**, you must enable acce
 2. Go to **Privacy & Security**
 3. Select **Accessibility**
 4. Enable **Visual Studio Code**
-5. (If using the integrated terminal) also ensure your **Terminal** or shell app is enabled
+5. Go back to **Privacy & Security**
+6. Select **Input Monitoring**
+7. Enable **Visual Studio Code**
+8. (If using the integrated terminal) also ensure your **Terminal** or shell app is enabled
 
 After enabling permissions, **restart VS Code** before running the program again.
 
@@ -76,13 +79,15 @@ After enabling permissions, **restart VS Code** before running the program again
 
 ---
 
-## How to Run Program
+## 💻 How to Run Program
 
 After getting proper permissions from system settings (as described in Required Permissions section above), simply compile and run main.py. You can enter command: `python3 main.py` in your terminal that has proper permissions.
 
+**NOTE:** You may need to specify the path to `main.py` depending on your current directory (e.g., `python3 src/main.py`). 
+
 ---
 
-## 🚨🚨🚨🚨 Disclaimer 🚨🚨🚨🚨
+## 🚨🚨🚨🚨 DISCLAIMER 🚨🚨🚨🚨
 
 This project is intended for **educational and experimental purposes only**. Monitoring keyboard and mouse input can have legal and ethical implications. Always ensure you have proper authorization and follow applicable laws and platform policies.
 
@@ -107,7 +112,7 @@ This exhibit shows the real Facebook login page vs the UI created Facebook login
 ![Exhibit B – John Doe Login](readme-images/john-doe.png)
 
 **Description:**  
-Here, John Doe is unsuspectively entering his Facebook login credentials. He is unaware that a keylogger has been deployed on his system and is logging his email and password. 
+Here, John Doe is entering his Facebook login credentials. He is unaware that a keylogger has been deployed on his system and is logging his email and password. 
 
 ### Exhibit C: Captured Logs
 
@@ -125,24 +130,41 @@ After logs are captured, keys are process to create sequences of keyboard input.
 
 But not only does this program work for the UI. It also captures keyboard strokes and mouse clicks throughout the **ENTIRE** system. 
 
-### Exhibit D: Organized keys
+### Exhibit E: Testing keylogger on Google Docs
 
-![Exhibit B – Organized Keys](readme-images/organized-keys.png)
-
-
+![Exhibit E – Google Docs](readme-images/docs-test.png)
 
 **Description:**  
+This is an example of the keylogger working outside the UI. They keylogger logs whatever is typed in a Google Doc.
 
+---
+
+### Exhibit F: Google Docs Logs
+
+![Exhibit F – Google Docs Logs1](readme-images/docs-test-logs1.png)
+![Exhibit F – Google Docs Logs2](readme-images/docs-test-logs2.png)
+
+**Description:**  
+The keylogger can log system wide, not limited to just the UI. What I typed in Google Docs is logged by my keylogger.
+
+---
+
+### Exhibit G: Google Docs Organized Keys
+
+![Exhibit F – Google Docs Organized Keys1](readme-images/docs-test-org1.png)
+![Exhibit F – Google Docs Organized Keys2](readme-images/docs-test-org2.png)
+
+**Description:**  
+The program then proccess key input by creating word sequences. 
+
+---
+
+## 👤 Author
+- [**Christian Ruiz**](https://github.com/cr-droid)
+  - Cybersecurity Researcher
 
 ---
 
 ## License
 
-This project is provided as-is for learning and experimentation.
-
----
-
-## 👤 Author
-- **Christian Ruiz**  
-  Cybersecurity Researcher
-  GitHub: https://github.com/cr-droid
+This project is provided for learning and experimentation with keyloggers.
