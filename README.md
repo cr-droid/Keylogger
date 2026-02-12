@@ -1,4 +1,4 @@
-# KeyLogger (Educational Project)
+# KeyLogger
 
 ## 📌 Project Description
 
@@ -13,7 +13,7 @@ The application runs a Tkinter-based UI and uses global input listeners to monit
 - Global keyboard and mouse input monitoring
 - Timestamped logging of raw input events
 - Organized reconstruction of typed text (handles space, backspace, and enter)
-- Graphical user interface built with Tkinter
+- Graphical user interface built with Tkinter (fake Facebook login page)
 - Graceful shutdown with safe data flushing
 
 ---
@@ -21,7 +21,7 @@ The application runs a Tkinter-based UI and uses global input listeners to monit
 ## 🧩 Project Structure
 
 - main.py # Application entry point and orchestration
-- filemanager.py # File I/O abstraction and persistence logic
+- filemanager.py # File I/O abstraction
 - logger.py # Buffered interaction logger
 - input_handlers.py # Keyboard and mouse event handling
 - ui.py # GUI layout and construction
@@ -42,7 +42,7 @@ The application runs a Tkinter-based UI and uses global input listeners to monit
 
 ---
 
-## 🔐 Required Permissions (Important)
+## 🔐 Required Permissions (IMPORTANT)
 
 Because this program monitors **global keyboard and mouse input**, most operating systems require explicit user permission for the application or terminal running it.
 
@@ -61,7 +61,7 @@ If you are running this program on **macOS using VS Code**, you must enable acce
 7. Enable **Visual Studio Code**
 8. (If using the integrated terminal) also ensure your **Terminal** or shell app is enabled
 
-After enabling permissions, **restart VS Code** before running the program again.
+After enabling permissions, **restart VS Code** before running the program.
 
 ### Other Platforms
 
@@ -162,9 +162,3 @@ The program then proccess key input by creating word sequences.
 ## 👤 Author
 - [**Christian Ruiz**](https://github.com/cr-droid)
   - Cybersecurity Researcher
-
----
-
-## License
-
-This project is provided for learning and experimentation with keyloggers.
